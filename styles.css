@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #fff;
+}
+
+.banner {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    background: linear-gradient(to bottom, #6b48ff 50%, #ffcc00 50%);
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.admission-text {
+    background: #0052cc;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    position: relative;
+}
+
+.admission-text h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+}
+
+.admission-text h1 span {
+    color: #ffcc00;
+}
+
+.tagline {
+    color: #ffcc00;
+    text-align: right;
+}
+
+.tagline h2 {
+    font-size: 1.5rem;
+    line-height: 1.2;
+}
+
+.image-section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.image-placeholder {
+    background: #ddd;
+    padding: 50px;
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.contact-info {
+    background: #ffcc00;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    margin: 20px 0;
+}
+
+.contact-info p {
+    font-size: 1.2rem;
+    color: #0052cc;
+}
+
+.contact-info span {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.bottom-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.features {
+    width: 60%;
+}
+
+.features h3 {
+    color: #0052cc;
+    font-size: 1.2rem;
+}
+
+.features h2 {
+    color: #0052cc;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.feature-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+}
+
+.feature-item .icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.feature-item .icon.certified { background: #0052cc; }
+.feature-item .icon.play { background: #ff6600; }
+.feature-item .icon.class { background: #ff3399; }
+.feature-item .icon.playground { background: #00cc00; }
+
+.feature-item p {
+    font-size: 0.9rem;
+}
+
+.feature-item p strong {
+    color: #000;
+}
+
+.benefits {
+    width: 35%;
+    background: #0052cc;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.benefits h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.benefits ul {
+    list-style: none;
+}
+
+.benefits ul li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.benefits ul li:before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #ffcc00;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #0052cc;
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.footer p {
+    font-size: 1rem;
+}
+
+.footer-contact span {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
