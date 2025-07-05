@@ -66,6 +66,11 @@ body {
     color: #666;
 }
 
+.image-placeholder img {
+    max-width: 100%;
+    height: auto;
+}
+
 .contact-info {
     background: #ffcc00;
     padding: 10px;
@@ -83,6 +88,17 @@ body {
 .contact-info span {
     font-size: 1.5rem;
     font-weight: bold;
+}
+
+.whatsapp-link {
+    color: #0052cc;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.whatsapp-link:hover {
+    text-decoration: underline;
 }
 
 .bottom-section {
@@ -187,4 +203,180 @@ body {
 .footer-contact span {
     font-size: 1.2rem;
     font-weight: bold;
+}
+
+/* Media Queries for Small Devices (max-width: 600px) */
+@media screen and (max-width: 600px) {
+    .banner {
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .top-section {
+        flex-direction: column;
+        padding: 10px;
+        align-items: flex-start;
+    }
+
+    .admission-text {
+        padding: 15px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .admission-text h1 {
+        font-size: 1.8rem;
+    }
+
+    .tagline {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .tagline h2 {
+        font-size: 1.2rem;
+    }
+
+    .image-section {
+        margin: 10px 0;
+    }
+
+    .image-placeholder img {
+        width: 100%;
+        height: auto;
+    }
+
+    .contact-info {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin: 10px 0;
+        padding: 8px;
+    }
+
+    .contact-info p {
+        font-size: 1rem;
+    }
+
+    .contact-info span,
+    .whatsapp-link {
+        font-size: 1.2rem;
+    }
+
+    .bottom-section {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .features {
+        width: 100%;
+    }
+
+    .features h3 {
+        font-size: 1rem;
+    }
+
+    .features h2 {
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+    }
+
+    .feature-list29 {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .feature-item {
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: center;
+    }
+
+    .feature-item .icon {
+        margin: 0 auto 10px;
+    }
+
+    .feature-item p {
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: center;
+    }
+
+    .feature-item .icon {
+        margin: 0 auto 10px;
+    }
+
+    .feature-item p {
+        font-size: 0.85rem;
+    }
+
+    .benefits {
+        width: 100%;
+        padding: 15px;
+        margin-top: 15px;
+    }
+
+    .benefits h2 {
+        font-size: 1.2rem;
+    }
+
+    .benefits ul li {
+        font-size: 0.9rem;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 15px;
+        gap: 10px;
+    }
+
+    .footer p {
+        font-size: 0.9rem;
+    }
+
+    .footer-contact span {
+        font-size: 1rem;
+    }
+}
+
+/* Additional Media Query for Very Small Devices (max-width: 400px) */
+@media screen and (max-width: 400px) {
+    .admission-text h1 {
+        font-size: 1.5rem;
+    }
+
+    .tagline h2 {
+        font-size: 1rem;
+    }
+
+    .contact-info p {
+        font-size: 0.9rem;
+    }
+
+    .contact-info span,
+    .whatsapp-link {
+        font-size: 1rem;
+    }
+
+    .features h2 {
+        font-size: 1.2rem;
+    }
+
+    .feature-item p {
+        font-size: 0.8rem;
+    }
+
+    .benefits h2 {
+        font-size: 1rem;
+    }
+
+    .benefits ul li {
+        font-size: 0.85rem;
+    }
+
+    .footer p {
+        font-size: 0.85rem;
+    }
 }
